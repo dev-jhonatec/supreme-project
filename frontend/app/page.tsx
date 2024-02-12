@@ -35,6 +35,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Testando app Full Stack</h1>
+      <h2>Lista de usuários:</h2>
       {status &&
         status.map((user) => (
           <div key={user._id}>
